@@ -5,6 +5,7 @@ count = 0
 def windowC():
 
     def click():
+        count = 0
         if a + b == int(ans.get()):
             lab = Label(MathGameWindow, text="correct")
             lab.grid(columns=1, row=4)
